@@ -1,13 +1,13 @@
-﻿#include <Windows.h>
+#include <Windows.h>
 
 /*
-Параметр "c" в функции color задаётся в диапозоне 1 - 6 (цвета радуги)
-1 - Красный
-2 - Жёлтый
-3 - зелёный
-4 - Голубой
-5 - синий
-6 - фиолетовый
+Param "c" in function color in 1 - 6 (rainbow colors)
+1 - Red
+2 - Yellow
+3 - Green
+4 - Light blue
+5 - Blue
+6 - Purple
 */
 void color(int c)
 {
