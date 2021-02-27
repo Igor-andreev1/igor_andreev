@@ -1,8 +1,8 @@
-﻿#include <conio.h>
+#include <conio.h>
 #include <stdio.h>
-#include <locale>
 /// <summary>
-/// Отображает вводимое значение "стрелочки"
+/// Displays the entered value "arrows"
+/// can be edited for different aims
 /// </summary>
 void inputInfo()
 {
@@ -14,16 +14,16 @@ void inputInfo()
         switch (code)
         {
         case 75:
-            printf("влево");
+            printf("Left");
             break;
         case 77:
-            printf("вправо");;
+            printf("Right");;
             break;
         case 72:
-            printf("вверх");;
+            printf("Up");;
             break;
         case 80:
-            printf("вниз");;
+            printf("Down");;
             break;
         }
         _getch();
@@ -33,6 +33,5 @@ void inputInfo()
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
     inputInfo();
 }
