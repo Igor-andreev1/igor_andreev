@@ -1,4 +1,3 @@
-﻿#include <locale>
 #include <windows.h>
 #include <conio.h> 
 #define store system("cls")
