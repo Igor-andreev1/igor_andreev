@@ -1,1 +1,2 @@
-Fan functions and stuf
+Fan functions and study stuff
+=)
